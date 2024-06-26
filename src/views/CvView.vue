@@ -224,6 +224,18 @@
             <img src="../assets/img/imgs/gallery-01.png" alt />
           </div>
         </router-link>
+        <router-link to="/Aqarbot" class="box">
+          <div class="infoo">
+            <h2>Aqar Bot</h2>
+            <h2>
+              7
+              <img src="../assets/img/star.png" class="icon" />
+            </h2>
+          </div>
+          <div class="image">
+            <img src="../assets/img/imgs/gallery-02.png" alt />
+          </div>
+        </router-link>
         <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Mallory</h2>
@@ -238,18 +250,6 @@
         </a>
         <a href="google" class="box">
           <div class="infoo">
-            <h2>Mallory</h2>
-            <h2>
-              7
-              <img src="assets/img/star.png" class="icon" />
-            </h2>
-          </div>
-          <div class="image">
-            <img src="assets/img/imgs/gallery-01.png" alt />
-          </div>
-        </a>
-        <a href="google" class="box">
-          <div class="infoo">
             <h2>Corpo-link</h2>
             <h2>
               6
@@ -283,7 +283,7 @@
           <div class="image">
             <img src="assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a>-->
+        </a> -->
       </div>
     </div>
     <!-- End Gallery -->
