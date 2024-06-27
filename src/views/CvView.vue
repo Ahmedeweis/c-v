@@ -15,13 +15,13 @@
               <a href="#home" class="ref">Home</a>
             </li>
             <li class="list-item">
-              <a href="#" class="ref">Services</a>
+              <a href="#Services" class="ref">Services</a>
             </li>
             <li class="list-item">
-              <a href="#" class="ref">Home</a>
+              <a href="#About" class="ref">About me</a>
             </li>
             <li class="list-item">
-              <a href="#" class="ref">Services</a>
+              <a href="#Projects" class="ref">Projects</a>
             </li>
           </ul>
           <div class="menu" id="toggle-button" @click="toggleMenu">
@@ -34,7 +34,7 @@
     </header>
     <!-- 1 header -->
     <!-- 0 Top -->
-    <section class="land-top">
+    <section class="land-top" id="home">
       <div class="container">
         <h1 class="top-head">Web & Front-end Designer</h1>
         <p class="bio">
@@ -47,34 +47,34 @@
             <p>the most desired Projects</p>
           </div>
           <!-- #1st -->
-          <a href class="project">
-            <img src alt="none" class="p-cover" />
+          <router-link to="/Fashoin" class="project" target="_blank">
+            <img src="../assets/img/imgs/gallery-01.png" alt="none" class="p-cover" />
             <div class="info">
-              <h2 class="p-title">Scal</h2>
-              <h3 class="p-rate">7 Star</h3>
+              <h2 class="p-title">Fashoin</h2>
+              <h3 class="p-rate">8 Star</h3>
             </div>
-            <p>hard core prosdaddsdsad</p>
-          </a>
+            <p>good design for fashoin ideas</p>
+          </router-link>
           <!-- #2sd -->
-          <a href class="project">
-            <img src="../assets/img/pro1.png" alt="none" class="p-cover" />
+          <router-link to="/Aqarbot" class="project" target="_blank">
+            <img src="../assets/img/imgs/gallery-02.png" alt="none" class="p-cover" />
             <div class="info">
-              <h2 class="p-title">Scal</h2>
-              <h3 class="p-rate">7 Star</h3>
+              <h2 class="p-title">Aqar Bot</h2>
+              <h3 class="p-rate">6 Star</h3>
             </div>
-            <p>hard core prosdaddsdsad</p>
-          </a>
+            <p>Landing page describe Bot</p>
+          </router-link>
           <!-- #3rd -->
-          <a href class="project">
+          <a href="/Scale/asset.html" class="project" target="_blank">
             <img src="../assets/img/pro1.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Scal</h2>
               <h3 class="p-rate">7 Star</h3>
             </div>
-            <p>hard core prosdaddsdsad</p>
+            <p>Exam for students</p>
           </a>
           <!-- #4th -->
-          <a href="#" class="more">
+          <a href="#Projects" class="more">
             <div class="sub-more">
               <p class="p-link">More Projects</p>
             </div>
@@ -86,7 +86,7 @@
     <!-- 1 Top  -->
     <!--  <div class=""></div> -->
     <!-- 1 jops  -->
-    <section class="jops">
+    <section class="jops" id="Services">
       <div class="container">
         <div class="services-tilte">
           <span>what I can do</span>
@@ -139,7 +139,7 @@
     </section>
     <!-- 1 jops  -->
     <!-- 1 about me  -->
-    <section class="about-me">
+    <section class="about-me" id="About">
       <div class="container">
         <div class="about-me-info">
           <div class="services-tilte">
@@ -180,29 +180,29 @@
       <div class="container">
         <div class="fact">
           <img src="../assets/img/list.png" class="icon-m" />
-          <h2 class="number">+250</h2>
+          <h2 class="number">10</h2>
           <h3>Projects completed</h3>
         </div>
         <div class="fact">
           <img src="../assets/img/reputation.png" class="icon-m" />
-          <h2 class="number">+250</h2>
+          <h2 class="number">25</h2>
           <h3>satisfied clients</h3>
         </div>
         <div class="fact">
           <img src="../assets/img/responsive.png" class="icon-m" />
-          <h2 class="number">+250</h2>
+          <h2 class="number">3</h2>
           <h3>Years experience</h3>
         </div>
         <div class="fact">
           <img src="../assets/img/trustworthiness.png" class="icon-m" />
-          <h2 class="number">+250</h2>
+          <h2 class="number">9</h2>
           <h3>Certificates</h3>
         </div>
       </div>
     </section>
     <!--  -->
     <!-- Start Gallery -->
-    <div class="black">
+    <div class="black" id="Projects">
       <div class="container">
         <div class="head-projects">
           <h2 class="main-title">Projects</h2>
@@ -212,7 +212,7 @@
     </div>
     <div class="gallery" id="gallery">
       <div class="container">
-        <router-link to="/Fashoin" class="box">
+        <router-link to="/Fashoin" class="box" target="_blank">
           <div class="infoo">
             <h2>Fashoin</h2>
             <h2>
@@ -224,7 +224,7 @@
             <img src="../assets/img/imgs/gallery-01.png" alt />
           </div>
         </router-link>
-        <router-link to="/Aqarbot" class="box">
+        <router-link to="/Aqarbot" class="box" target="_blank">
           <div class="infoo">
             <h2>Aqar Bot</h2>
             <h2>
@@ -236,19 +236,63 @@
             <img src="../assets/img/imgs/gallery-02.png" alt />
           </div>
         </router-link>
+        <a href="/Scale/asset.html" class="box" target="_blank">
+          <div class="infoo">
+            <h2>Scale</h2>
+            <h2>
+              6
+              <img src="../assets/img/star.png" class="icon" />
+            </h2>
+          </div>
+          <div class="image">
+            <img src="../assets/img/imgs/gallery-03.png" alt />
+          </div>
+        </a>
+        <router-link to="/Fashoin" class="box" target="_blank">
+          <div class="infoo">
+            <h2>Fashoin</h2>
+            <h2>
+              8
+              <img src="../assets/img/star.png" class="icon" />
+            </h2>
+          </div>
+          <div class="image">
+            <img src="../assets/img/imgs/gallery-01.png" alt />
+          </div>
+        </router-link>
+        <router-link to="/Fashoin" class="box" target="_blank">
+          <div class="infoo">
+            <h2>Fashoin</h2>
+            <h2>
+              8
+              <img src="../assets/img/star.png" class="icon" />
+            </h2>
+          </div>
+          <div class="image">
+            <img src="../assets/img/imgs/gallery-01.png" alt />
+          </div>
+        </router-link>
+        <router-link to="/Fashoin" class="box" target="_blank">
+          <div class="infoo">
+            <h2>More</h2>
+          </div>
+          <div class="image">
+            <!-- <h1>+30</h1> -->
+          </div>
+        </router-link>
         <!-- <a href="google" class="box">
           <div class="infoo">
-            <h2>Mallory</h2>
+            <h2>Corpo-link</h2>
             <h2>
-              7
+              6
               <img src="assets/img/star.png" class="icon" />
             </h2>
           </div>
           <div class="image">
-            <img src="assets/img/imgs/gallery-01.png" alt />
+            <img src="assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a>
-        <a href="google" class="box">
+        </a>-->
+        <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Corpo-link</h2>
             <h2>
@@ -259,8 +303,8 @@
           <div class="image">
             <img src="assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a>
-        <a href="google" class="box">
+        </a>-->
+        <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Corpo-link</h2>
             <h2>
@@ -271,19 +315,7 @@
           <div class="image">
             <img src="assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a>
-        <a href="google" class="box">
-          <div class="infoo">
-            <h2>Corpo-link</h2>
-            <h2>
-              6
-              <img src="assets/img/star.png" class="icon" />
-            </h2>
-          </div>
-          <div class="image">
-            <img src="assets/img/imgs/gallery-04.png" alt />
-          </div>
-        </a> -->
+        </a>-->
       </div>
     </div>
     <!-- End Gallery -->
