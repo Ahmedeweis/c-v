@@ -4,7 +4,7 @@
     <header class="top">
       <div class="container" id="home">
         <nav class="navbar">
-          <div class="iconsy">
+          <div class="icon2sy">
             <a href class="brand-link">
               <span class="char">B</span>Blinder
               <span class="sec-name">Front</span>
@@ -78,7 +78,7 @@
             <div class="sub-more">
               <p class="p-link">More Projects</p>
             </div>
-            <img src="../assets/img/arrow-left.png" class="icon arrow" />
+            <img src="../assets/img/arrow-left.png" class="icon2 arrow" />
           </a>
         </div>
       </div>
@@ -100,7 +100,7 @@
 
         <div class="services">
           <div class="service">
-            <img src="../assets/img/blog.png" class="icon" />
+            <img src="../assets/img/blog.png" class="icon2" />
             <div class="serv-info">
               <h3>Web design</h3>
               <p>I can Design UI for system Reaquiment</p>
@@ -109,7 +109,7 @@
           </div>
 
           <div class="service">
-            <img src="../assets/img/cloud-computing.png" class="icon" />
+            <img src="../assets/img/cloud-computing.png" class="icon2" />
             <div class="serv-info">
               <h3>Developing</h3>
               <p>I can Modfy your current project</p>
@@ -118,7 +118,7 @@
           </div>
 
           <div class="service">
-            <img src="../assets/img/code.png" class="icon" />
+            <img src="../assets/img/code.png" class="icon2" />
             <div class="serv-info">
               <h3>Ui Coding</h3>
               <p>If you have PSD file or any ui a can code it</p>
@@ -127,7 +127,7 @@
           </div>
 
           <div class="service">
-            <img src="../assets/img/multi-channel.png" class="icon" />
+            <img src="../assets/img/multi-channel.png" class="icon2" />
             <div class="serv-info">
               <h3>Api Connects</h3>
               <p>have problem with connect front & Back ?</p>
@@ -154,7 +154,7 @@
               gives me a high chance for Make your website ..
             </p>
             <div class="meddile-about">
-              <img src="../assets/img/trophy.png" class="icon-L icon-left" />
+              <img src="../assets/img/trophy.png" class="icon2-L icon2-left" />
               <div>
                 <h3 class="mession-h">My Mession</h3>
                 <p>
@@ -162,7 +162,7 @@
                   <br />make full websites make eyes happy
                 </p>
               </div>
-              <img src="../assets/img/eagle.png" class="icon-L icon-right" />
+              <img src="../assets/img/eagle.png" class="icon2-L icon2-right" />
             </div>
             <button class="about-btn">About more</button>
           </div>
@@ -179,22 +179,22 @@
     <section class="facts">
       <div class="container">
         <div class="fact">
-          <img src="../assets/img/list.png" class="icon-m" />
+          <img src="../assets/img/list.png" class="icon2-m" />
           <h2 class="number">10</h2>
           <h3>Projects completed</h3>
         </div>
         <div class="fact">
-          <img src="../assets/img/reputation.png" class="icon-m" />
+          <img src="../assets/img/reputation.png" class="icon2-m" />
           <h2 class="number">25</h2>
           <h3>satisfied clients</h3>
         </div>
         <div class="fact">
-          <img src="../assets/img/responsive.png" class="icon-m" />
+          <img src="../assets/img/responsive.png" class="icon2-m" />
           <h2 class="number">3</h2>
           <h3>Years experience</h3>
         </div>
         <div class="fact">
-          <img src="../assets/img/trustworthiness.png" class="icon-m" />
+          <img src="../assets/img/trustworthiness.png" class="icon2-m" />
           <h2 class="number">9</h2>
           <h3>Certificates</h3>
         </div>
@@ -217,7 +217,7 @@
             <h2>Fashoin</h2>
             <h2>
               8
-              <img src="../assets/img/star.png" class="icon" />
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -229,7 +229,7 @@
             <h2>Aqar Bot</h2>
             <h2>
               7
-              <img src="../assets/img/star.png" class="icon" />
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -241,7 +241,7 @@
             <h2>Scale</h2>
             <h2>
               6
-              <img src="../assets/img/star.png" class="icon" />
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -253,7 +253,7 @@
             <h2>Fashoin</h2>
             <h2>
               8
-              <img src="../assets/img/star.png" class="icon" />
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -265,7 +265,7 @@
             <h2>Fashoin</h2>
             <h2>
               8
-              <img src="../assets/img/star.png" class="icon" />
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -285,7 +285,7 @@
             <h2>Corpo-link</h2>
             <h2>
               6
-              <img src="assets/img/star.png" class="icon" />
+              <img src="assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -297,7 +297,7 @@
             <h2>Corpo-link</h2>
             <h2>
               6
-              <img src="assets/img/star.png" class="icon" />
+              <img src="assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
@@ -309,7 +309,7 @@
             <h2>Corpo-link</h2>
             <h2>
               6
-              <img src="assets/img/star.png" class="icon" />
+              <img src="assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
