@@ -60,9 +60,9 @@ ul {
   }
 }
 
-/* start header  */
+/* start heade  */
 
-.header .container {
+.heade .container {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -71,39 +71,39 @@ ul {
     align-content: flex-end;
     margin-top: 34px;
 }
-.header .logo {
+.heade .logo {
   width: 60px;
 }
-.header .linkss {
+.heade .linkss {
   position: relative;
   text-align: right;
 }
-.header .linkss:hover .icon span:nth-child(2) {
+.heade .linkss:hover .icon span:nth-child(2) {
   width: 100%;
 }
-.header .linkss .icon {
+.heade .linkss .icon {
   width: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-top:20px;
 }
-.header .linkss .icon span {
+.heade .linkss .icon span {
   background-color: var(--main-color);
   margin-bottom: 5px;
   height: 2px;
 }
-.header .linkss .icon span:first-child {
+.heade .linkss .icon span:first-child {
   width: 100%;
 }
-.header .linkss .icon span:nth-child(2) {
+.heade .linkss .icon span:nth-child(2) {
   width: 100%;
   transition: var(--main-duration);
 }
-.header .linkss .icon span:last-child {
+.heade .linkss .icon span:last-child {
   width: 100%;
 }
-.header .linkss ul {
+.heade .linkss ul {
   display: flex;
   text-align: right;
   flex-direction: column;
@@ -123,27 +123,27 @@ ul {
   padding:10px;
 }
 
-.header .linkss:hover ul {
+.heade .linkss:hover ul {
   display: block;
   text-align: right;
 }
-.header .linkss ul li  {
+.heade .linkss ul li  {
   font-weight:700;
 }
-.header .linkss ul li a {
+.heade .linkss ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
   transition: var(--main-duration);
   text-align: right;
 }
-.header .linkss ul li a:hover {
+.heade .linkss ul li a:hover {
   padding-left: 25px;
 }
-.header .linkss ul li:not(:last-child) a {
+.heade .linkss ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
 }
-.header .linkss ul li {
+.heade .linkss ul li {
   margin-top:10px;
 }
 .force {
@@ -151,7 +151,7 @@ ul {
   color: black;
 }
 
- header {
+ heade {
   padding-top: var(--main-padding-top);
 }
 
@@ -179,18 +179,18 @@ flex-direction: row-reverse;
   font-size: 22px;
 }
 @media (max-width: 768px) {
-  header {
+  heade {
     display:none;
   }
 }
 @media (min-width: 768px) {
-  .header {
+  .heade {
     display:none;
     background-color: red;
   }
 }
 
-/* end Header */ 
+/* end heade */ 
 
 /* start land */
 .land {

@@ -24,8 +24,8 @@
     />
     <link rel="icon" href="image/Aqar-Pot-icon.jpg" />
   </head>
-  <!-- start header -->
-  <div class="header">
+  <!-- start heade -->
+  <div class="heade">
     <div class="container">
       <img src="../../assets/aqar-bot/Aqar-Pot.png" />
       <div class="linkss">
@@ -82,7 +82,7 @@
     </div>
   </header>
 
-  <!-- end header -->
+  <!-- end heade -->
   <!-- start land -->
   <section id="main" class="land">
     <div class="container">
