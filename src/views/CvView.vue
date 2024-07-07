@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <!-- 0 header -->
-    <header class="top">
+    <header class="top" style="background-color: black">
       <div class="container" id="home">
         <nav class="navbar">
           <div class="icon2sy">

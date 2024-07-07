@@ -112,6 +112,7 @@ button {
 }
 /* 1 Global Rules */
 /* 0 Header */
+
 .navba {
   color: black;
   display: flex;
@@ -257,6 +258,7 @@ button {
     font-size: 18px !important;
   }
 }
+
 /* 1 Header */
 /* 0 Landing */
 .Blinder-land {
