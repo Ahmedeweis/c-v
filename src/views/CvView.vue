@@ -6,7 +6,7 @@
         <nav class="navbar">
           <div class="icon2sy">
             <a href class="brand-link">
-              <span class="char">B</span>Blinder
+              <span class="char" style="background-color:red;">B</span>Blinder
               <span class="sec-name">Front</span>
             </a>
           </div>
