@@ -3,7 +3,7 @@
     <!-- 0 header -->
 	<header class="">
 		<div class="container" id="home">
-			<nav class="navbar">
+			<nav class="navba">
 				<div class="iconsy">
 					<a href="" class="logo-name">MRstudio</a>
 				</div>

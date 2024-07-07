@@ -112,7 +112,7 @@ button {
 }
 /* 1 Global Rules */
 /* 0 Header */
-.navbar {
+.navba {
   color: black;
   display: flex;
   justify-content: space-between;
@@ -122,7 +122,7 @@ button {
   padding-bottom: 6px;
 }
 @media (max-width: 480px) {
-  .navbar {
+  .navba {
     flex-direction: column;
   }
 }
@@ -180,19 +180,19 @@ button {
   background-color: white !important;
   cursor: pointer;
 }
-.navbar a {
+.navba a {
   color: black;
   text-decoration: none;
   font-size: 18px;
 }
 
-.navbar a:hover {
+.navba a:hover {
   color: #F50A43;
   cursor: pointer;
 }
 
 @media (max-width: 991px) {
-  .navbar a {
+  .navba a {
     font-size: 17px;
   }
 }
@@ -203,7 +203,7 @@ button {
     padding-left:0px;
   }
   
-    .navbar a {
+    .navba a {
         font-size: 12px;
     }
 }
