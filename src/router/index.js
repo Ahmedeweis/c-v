@@ -29,7 +29,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../projects/Fashoin/FashoinView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../projects/Fashoinn/FashoinView.vue')
   },
   {
     path: '/Aqarbot',
@@ -37,7 +37,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../projects/Aqar-bot/AqarbotView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../projects/Aqar-bott/AqarbotView.vue')
   },
 ]
 
