@@ -79,23 +79,23 @@
 			<h1 class="company-head">Connect We Are Fashion</h1>
 			<br>
 			<div class="all-compnies">
-				<div class="single-company">
+				<div class="single-compan">
 					<!-- <img src="../@/assets/Fashoin/avast.png" class="small-icone"> -->
 					<h4>Avast</h4>
 					<span></span>
 				</div>
-				<div class="single-company">
+				<div class="single-compan">
 					<h4 class="sec-comp">BuzzFeed</h4>
 				</div>
-				<div class="single-company">
+				<div class="single-compan">
 					<h4 class="thir-comp-h4">Booking</h4>
 					<span class="thir-comp-span">.com</span>
 				</div>
-				<div class="single-company">
+				<div class="single-compan">
 					<!-- <img src="../@/assets/Fashoin/Expedia.png" class="small-icone"> -->
 					<h4>Expedia</h4>
 				</div>
-				<div class="single-company">
+				<div class="single-compan">
 					<!-- <img src="../@/assets/Fashoin/dispach.png" class="small-icone"> -->
 					<h4>Dispach</h4>
 				</div>

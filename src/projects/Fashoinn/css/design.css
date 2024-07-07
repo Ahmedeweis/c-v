@@ -547,7 +547,7 @@ button {
   align-items: center;
   flex-wrap: wrap; */
 }
-.single-company {
+.single-compan {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -562,7 +562,7 @@ button {
   margin-top: 10px;
   width: 153px;
 }
-.single-company {
+.single-compan {
   font-size: 20px;
 }
 .company-head {
