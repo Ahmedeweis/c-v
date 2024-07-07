@@ -306,6 +306,6 @@ export default {
   }
 };
 </script>
-<style >
+<style scoped >
 @import "css/design.css";
 </style>
