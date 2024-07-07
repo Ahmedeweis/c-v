@@ -6,7 +6,7 @@
         <nav class="navbar">
           <div class="icon2sy">
             <a href class="brand-link">
-              <span class="char">B</span>Blinder
+              <span class="charr">B</span>Blinder
               <span class="sec-name">Front</span>
             </a>
           </div>
@@ -49,7 +49,7 @@
         </p>
         <div class="min-projects">
           <div class="projects-title">
-            <h2>top2of The Last Projects</h2>
+            <h2>top of The Last Projects</h2>
             <p>the most desired Projects</p>
           </div>
           <!-- #1st -->
