@@ -62,14 +62,14 @@
             <p>good design for fashoin ideas</p>
           </a>
           <!-- #2sd -->
-          <router-link to="/Aqarbot" class="project" target="_blank">
+          <a href="aqart/index.html" class="project" target="_blank">
             <img src="../assets/img/imgs/gallery-02.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Aqar Bot</h2>
               <h3 class="p-rate">6 Star</h3>
             </div>
             <p>Landing page describe Bot</p>
-          </router-link>
+          </a>
           <!-- #3rd -->
           <a href="/Scale/asset.html" class="project" target="_blank">
             <img src="../assets/img/pro1.png" alt="none" class="p-cover" />
@@ -230,7 +230,7 @@
             <img src="../assets/img/imgs/gallery-01.png" alt />
           </div>
         </a>
-        <router-link to="/Aqarbot" class="box" target="_blank">
+        <a href="aqart/index.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Aqar Bot</h2>
             <h2>
@@ -241,7 +241,7 @@
           <div class="image">
             <img src="../assets/img/imgs/gallery-02.png" alt />
           </div>
-        </router-link>
+        </a>
         <a href="/Scale/asset.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Scale</h2>
