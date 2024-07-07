@@ -33,7 +33,7 @@
       </div>
     </header>
     <!-- 1 header -->
-    <!-- 0 Top -->
+    <!-- 0 top2-->
     <section class="land-top" id="home">
       <div class="container">
         <h1 class="top-head">Web & Front-end Designer</h1>
@@ -43,7 +43,7 @@
         </p>
         <div class="min-projects">
           <div class="projects-title">
-            <h2>Top of The Last Projects</h2>
+            <h2>top2of The Last Projects</h2>
             <p>the most desired Projects</p>
           </div>
           <!-- #1st -->
@@ -83,7 +83,7 @@
         </div>
       </div>
     </section>
-    <!-- 1 Top  -->
+    <!-- 1 top2 -->
     <!--  <div class=""></div> -->
     <!-- 1 jops  -->
     <section class="jops" id="Services">

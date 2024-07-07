@@ -133,7 +133,7 @@ button:hover {
 /* 1 Global Rules */
 
 /* 0 Header */
-.top {
+.top2{
     background-color: black;
 }
 
@@ -241,8 +241,8 @@ button:hover {
 }
 
 /* 1 Header */
-/* 0 Top */
-.land-top {
+/* 0 top2*/
+.land-top2{
     position: relative;
     height: fit-content;
     overflow: hidden;
@@ -276,7 +276,7 @@ button:hover {
     z-index: -1;
 }
 
-.land-top .container {
+.land-top2.container {
     position: relative;
     z-index: 1;
     display: flex;
@@ -287,7 +287,7 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .land-top .container {
+    .land-top2.container {
         height: fit-content;
     }
 }
