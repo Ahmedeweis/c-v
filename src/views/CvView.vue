@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <!-- 0 header -->
-    <header class="top">
+    <!-- <header class="top">
       <div class="container" id="home">
         <nav class="navbar">
           <div class="iconsy">
@@ -31,7 +31,7 @@
           </div>
         </nav>
       </div>
-    </header>
+    </header> -->
     <!-- 1 header -->
     <!-- 0 Top -->
     <section class="land-top" id="home">
