@@ -35,8 +35,14 @@
     <!-- 1 header -->
     <!-- 0 top2-->
     <section class="land-top" id="home">
-      <div class="container">
-        <h1 class="top-head">Web & Front-end Designer</h1>
+      <div
+        class="container"
+        style="display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;"
+      >
+        <h1 class="top-head" style="margin-top: 80px;">Web & Front-end Designer</h1>
         <p class="bio">
           Hardworking professional skilled in Vue.js. Passionate about secure,
           optimized code. Eager to tackle new challenges and leverage cutting-edge technologies for impactful projects.
