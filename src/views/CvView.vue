@@ -53,7 +53,7 @@
             <p>the most desired Projects</p>
           </div>
           <!-- #1st -->
-          <a href="/Fashoin/index.html" class="project" target="_blank">
+          <a href="/fash/index.html" class="project" target="_blank">
             <img src="../assets/img/imgs/gallery-01.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Fashoin</h2>
@@ -218,7 +218,7 @@
     </div>
     <div class="gallery" id="gallery">
       <div class="container">
-        <a href="/Fashoin/index.html" class="box" target="_blank">
+        <a href="/fash/index.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Fashoin</h2>
             <h2>
