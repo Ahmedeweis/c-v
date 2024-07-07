@@ -53,14 +53,14 @@
             <p>the most desired Projects</p>
           </div>
           <!-- #1st -->
-          <router-link to="/Fashoin" class="project" target="_blank">
+          <a href="/Fashoin/index.html" class="project" target="_blank">
             <img src="../assets/img/imgs/gallery-01.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Fashoin</h2>
               <h3 class="p-rate">8 Star</h3>
             </div>
             <p>good design for fashoin ideas</p>
-          </router-link>
+          </a>
           <!-- #2sd -->
           <router-link to="/Aqarbot" class="project" target="_blank">
             <img src="../assets/img/imgs/gallery-02.png" alt="none" class="p-cover" />
@@ -218,7 +218,7 @@
     </div>
     <div class="gallery" id="gallery">
       <div class="container">
-        <router-link to="/Fashoin" class="box" target="_blank">
+        <a href="/Fashoin/index.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Fashoin</h2>
             <h2>
@@ -229,7 +229,7 @@
           <div class="image">
             <img src="../assets/img/imgs/gallery-01.png" alt />
           </div>
-        </router-link>
+        </a>
         <router-link to="/Aqarbot" class="box" target="_blank">
           <div class="infoo">
             <h2>Aqar Bot</h2>
@@ -254,38 +254,6 @@
             <img src="../assets/img/imgs/gallery-03.png" alt />
           </div>
         </a>
-        <router-link to="/Fashoin" class="box" target="_blank">
-          <div class="infoo">
-            <h2>Fashoin</h2>
-            <h2>
-              8
-              <img src="../assets/img/star.png" class="icon2" />
-            </h2>
-          </div>
-          <div class="image">
-            <img src="../assets/img/imgs/gallery-01.png" alt />
-          </div>
-        </router-link>
-        <router-link to="/Fashoin" class="box" target="_blank">
-          <div class="infoo">
-            <h2>Fashoin</h2>
-            <h2>
-              8
-              <img src="../assets/img/star.png" class="icon2" />
-            </h2>
-          </div>
-          <div class="image">
-            <img src="../assets/img/imgs/gallery-01.png" alt />
-          </div>
-        </router-link>
-        <router-link to="/Fashoin" class="box" target="_blank">
-          <div class="infoo">
-            <h2>More</h2>
-          </div>
-          <div class="image">
-            <!-- <h1>+30</h1> -->
-          </div>
-        </router-link>
         <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Corpo-link</h2>
