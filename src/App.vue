@@ -4,9 +4,4 @@
   </nav>
   <router-view/>
 </template>
-<style lang="scss">
-</style>
-<style scoped>
-@import "@/assets/normalize.css";
-</style>
 

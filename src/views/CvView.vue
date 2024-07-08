@@ -57,7 +57,6 @@
             <img src="../assets/img/imgs/gallery-01.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Fashoin</h2>
-              <h3 class="p-rate">8 Star</h3>
             </div>
             <p>good design for fashoin ideas</p>
           </a>
@@ -66,7 +65,6 @@
             <img src="../assets/img/imgs/gallery-02.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Aqar Bot</h2>
-              <h3 class="p-rate">6 Star</h3>
             </div>
             <p>Landing page describe Bot</p>
           </a>
@@ -75,7 +73,6 @@
             <img src="../assets/img/pro1.png" alt="none" class="p-cover" />
             <div class="info">
               <h2 class="p-title">Scal</h2>
-              <h3 class="p-rate">7 Star</h3>
             </div>
             <p>Exam for students</p>
           </a>
@@ -186,12 +183,12 @@
       <div class="container">
         <div class="fact">
           <img src="../assets/img/list.png" class="icon2-m" />
-          <h2 class="number">10</h2>
+          <h2 class="number">27</h2>
           <h3>Projects completed</h3>
         </div>
         <div class="fact">
           <img src="../assets/img/reputation.png" class="icon2-m" />
-          <h2 class="number">25</h2>
+          <h2 class="number">10</h2>
           <h3>satisfied clients</h3>
         </div>
         <div class="fact">
@@ -201,7 +198,7 @@
         </div>
         <div class="fact">
           <img src="../assets/img/trustworthiness.png" class="icon2-m" />
-          <h2 class="number">9</h2>
+          <h2 class="number">11</h2>
           <h3>Certificates</h3>
         </div>
       </div>
@@ -265,7 +262,7 @@
           <div class="image">
             <img src="assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a>-->
+        </a> -->
         <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Corpo-link</h2>
