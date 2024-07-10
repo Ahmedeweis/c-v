@@ -291,16 +291,17 @@
       <div class="container">
         <a href="/fash/index.html" class="box" target="_blank">
           <div class="infoo">
-            <h2>Fashoin</h2>
+            <h2>Mallory</h2>
             <h2>
               8
               <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
-            <img src="../assets/img/imgs/gallery-01.png" alt />
+            <img src="../assets/img/imgs/gallery-06.png" alt />
           </div>
         </a>
+        
       </div>
     </div>
     <!-- End Gallery -->
