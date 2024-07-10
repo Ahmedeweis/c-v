@@ -251,18 +251,18 @@
             <img src="../assets/img/imgs/gallery-03.png" alt />
           </div>
         </a>
-        <!-- <a href="google" class="box">
+        <a href="furniture/index.html" class="box">
           <div class="infoo">
-            <h2>Corpo-link</h2>
+            <h2>Tumpas</h2>
             <h2>
-              6
-              <img src="assets/img/star.png" class="icon2" />
+              8
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
-            <img src="assets/img/imgs/gallery-04.png" alt />
+            <img src="../assets/img/imgs/gallery-04.png" alt />
           </div>
-        </a> -->
+        </a>
         <!-- <a href="google" class="box">
           <div class="infoo">
             <h2>Corpo-link</h2>
