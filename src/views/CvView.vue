@@ -327,9 +327,18 @@
         </a>
       </div>
     </div>
-    <!-- End Gallery -->
-    
+    <!-- 1 Gallery -->
+    <!-- 0 Lang -->
+    <section class="langauge">
+      <div class="container">
+        <div class="cotact"></div>
+        <div class="langauges">
+          
+        </div>
+      </div>
+    </section>
   </section>
+  <!-- 1 Lang  -->
 </template>
 
 <script>
