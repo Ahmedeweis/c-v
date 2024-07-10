@@ -289,7 +289,7 @@
     </div>
     <div class="gallery" v-if="shows === '1'">
       <div class="container">
-        <a href="/fash/index.html" class="box" target="_blank">
+        <a href="/Mallory/index.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Mallory</h2>
             <h2>
@@ -301,10 +301,34 @@
             <img src="../assets/img/imgs/gallery-06.png" alt />
           </div>
         </a>
-        
+        <a href="/Lava/index.html" class="box" target="_blank">
+          <div class="infoo">
+            <h2>Lava</h2>
+            <h2>
+              8
+              <img src="../assets/img/star.png" class="icon2" />
+            </h2>
+          </div>
+          <div class="image">
+            <img src="../assets/img/imgs/gallery-07.png" alt />
+          </div>
+        </a>
+        <a href="/Lava/index.html" class="box" target="_blank">
+          <div class="infoo">
+            <h2>soon</h2>
+            <h2>
+              soon
+              <img src="../assets/img/star.png" class="icon2" />
+            </h2>
+          </div>
+          <div class="image">
+            <h1> coming soon</h1>
+          </div>
+        </a>
       </div>
     </div>
     <!-- End Gallery -->
+    
   </section>
 </template>
 
