@@ -556,6 +556,7 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 
 .mession-h {
@@ -709,6 +710,18 @@ button:hover {
   }
   .gallery .box .image:hover img {
     transform: rotate(4deg) scale(1.1);
+  }
+  .flexe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flexe h1 {
+    color: black;
+  }
+  .curser {
+    cursor: pointer;
   }
   /* End Gallery */
 

@@ -209,7 +209,7 @@
       <div class="container">
         <div class="head-projects">
           <h2 class="main-title">Projects</h2>
-          <button>View All</button>
+          <button  @click="showo">View All</button>
         </div>
       </div>
     </div>
@@ -251,7 +251,7 @@
             <img src="../assets/img/imgs/gallery-03.png" alt />
           </div>
         </a>
-        <a href="furniture/index.html" class="box">
+        <a href="furniture/index.html" class="box" target="_blank">
           <div class="infoo">
             <h2>Tumpas</h2>
             <h2>
@@ -263,30 +263,44 @@
             <img src="../assets/img/imgs/gallery-04.png" alt />
           </div>
         </a>
-        <!-- <a href="google" class="box">
+        <a href="Corpo-link/index.html" class="box" target="_blank">
           <div class="infoo">
-            <h2>Corpo-link</h2>
+            <h2>Corpo Link</h2>
             <h2>
-              6
-              <img src="assets/img/star.png" class="icon2" />
+              8
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
-            <img src="assets/img/imgs/gallery-04.png" alt />
+            <img src="../assets/img/imgs/gallery-05.png" alt />
           </div>
-        </a>-->
-        <!-- <a href="google" class="box">
+        </a>
+        <span class="box curser" @click="showo">
           <div class="infoo">
-            <h2>Corpo-link</h2>
+            <h2></h2>
+            <h2></h2>
+          </div>
+          <div class="image flexe">
+            <h1> +22 More</h1>
+            <button>View</button>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="gallery" v-if="shows === '1'">
+      <div class="container">
+        <a href="/fash/index.html" class="box" target="_blank">
+          <div class="infoo">
+            <h2>Fashoin</h2>
             <h2>
-              6
-              <img src="assets/img/star.png" class="icon2" />
+              8
+              <img src="../assets/img/star.png" class="icon2" />
             </h2>
           </div>
           <div class="image">
-            <img src="assets/img/imgs/gallery-04.png" alt />
+            <img src="../assets/img/imgs/gallery-01.png" alt />
           </div>
-        </a>-->
+        </a>
       </div>
     </div>
     <!-- End Gallery -->
@@ -295,10 +309,18 @@
 
 <script>
 export default {
+  data() {
+    return {
+      shows: "0"
+    };
+  },
   methods: {
     toggleMenu() {
       const naviList = document.getElementById("navi-list");
       naviList.classList.toggle("active");
+    },
+    showo() {
+      this.shows = this.shows === "0" ? "1" : "0";
     }
   }
 };
