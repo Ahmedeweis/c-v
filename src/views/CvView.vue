@@ -23,6 +23,9 @@
             <li class="list-item">
               <a href="#Projects" class="ref">Projects</a>
             </li>
+             <li class="list-item">
+              <a href="#skills" class="ref">Skills</a>
+            </li>
           </ul>
           <div class="menu" id="toggle-button" @click="toggleMenu">
             <div class="menu-line"></div>
@@ -209,7 +212,7 @@
       <div class="container">
         <div class="head-projects">
           <h2 class="main-title">Projects</h2>
-          <button  @click="showo">View All</button>
+          <button @click="showo">View All</button>
         </div>
       </div>
     </div>
@@ -281,7 +284,7 @@
             <h2></h2>
           </div>
           <div class="image flexe">
-            <h1> +22 More</h1>
+            <h1>+22 More</h1>
             <button>View</button>
           </div>
         </span>
@@ -322,20 +325,92 @@
             </h2>
           </div>
           <div class="image">
-            <h1> coming soon</h1>
+            <h1>+19 coming soon</h1>
           </div>
         </a>
       </div>
     </div>
     <!-- 1 Gallery -->
     <!-- 0 Lang -->
-    <section class="langauge">
-      <div class="container">
-        <div class="cotact"></div>
-        <div class="langauges">
-          
+    <section class="langauge" id="skills">
+        <div class="cotact">
+          <form class="die-form">
+            <div class="icon">
+              <img src="../assets/img/web.png" class="icon2" />
+            </div>
+            <h2>Get Started today</h2>
+            <div class="look-box">
+              <div class="look-content">
+                <span>Name</span>
+                <input type="text" class="look-field" />
+              </div>
+              <div class="look-content">
+                <span>E-Mail</span>
+                <input type="email" class="look-field" />
+              </div>
+              <textarea class="styled-textarea" placeholder="Enter your text here..."></textarea>
+            </div>
+            <button class="sen-btn">Send</button>
+          </form>
         </div>
-      </div>
+        <div class="langauges">
+          <div class="services-tilte">
+            <span>SKills</span>
+            <h2>My Languages Skills.</h2>
+          </div>
+          <div class="cols">
+            <div class="col">
+              <div class="min-col">
+                <img class="icon2-m " />
+                <h2>Front-End</h2>
+              </div>
+              <div class="min-col">
+                <img class="icon2-m " />
+                <h3>Html</h3>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Css</h3>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>JS</h3>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Vue Js</h3>
+              </div>
+            </div>
+            <div class="col">
+              <div class="min-col">
+                <img src class />
+                <h2>Back-End</h2>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Php</h3>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Node Js</h3>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Laravel</h3>
+              </div>
+            </div>
+            <div class="col">
+              <div class="min-col">
+                <img src class />
+                <h2>Data Base</h2>
+              </div>
+              <div class="min-col">
+                <img src class />
+                <h3>Postgres</h3>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
   </section>
   <!-- 1 Lang  -->
